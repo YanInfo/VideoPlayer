@@ -23,12 +23,14 @@ import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
  */
 public class MainActivity extends AppCompatActivity {
 
+    //在线视频     
     private String videoUrl = "http://video.jiecao.fm/5/1/%E8%87%AA%E5%8F%96%E5%85%B6%E8%BE%B1.mp4";
     private String videoUrl1 = "http://112.253.22.157/17/z/z/y/u/zzyuasjwufnqerzvyxgkuigrkcatxr/hc.yinyuetai.com/D046015255134077DDB3ACA0D7E68D45.flv";
     private String videoUrl2 = "https://key002.ku6.com/xy/d7b3278e106341908664638ac5e92802.mp4";
     private String videoUrl3 = "https://key002.ku6.com/xy/d7b3278e106341908664638ac5e92802.mp4";
     private String videoUrl4 = "http://gslb.miaopai.com/stream/ed5HCfnhovu3tyIQAiv60Q__.mp4";
     private String videoUrl5 = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
+    //本地视频     
     String localUrl = Environment.getExternalStorageDirectory().getAbsolutePath() + "/video/aaaa.mp4";
 
     private ListView listView;
